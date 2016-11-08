@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class problem1001 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n,i,T;T = sc.nextInt();
+		for (i = 0; i < T; i++) {
+			n = sc.nextInt();
+			if (n > 10) {
+				System.out.println((n - 10) + " " + (n-(n - 10)));
+			} else {
+				System.out.println("0 " + n);
+			}
+		}
+	}
+}
